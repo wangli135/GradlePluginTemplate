@@ -55,8 +55,8 @@ rm groovy/Library.groovy
 
 
 #创建resources目录
-mkdir -p resources/gradle-plugins
-cd resources/gradle-plugins
+mkdir -p resources/META-INF/gradle-plugins
+cd resources/META-INF/gradle-plugins
 echo 'implementation-class=xxxxxxxx' > xxxxxx.properties
 
 
